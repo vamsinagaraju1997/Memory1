@@ -1,0 +1,34 @@
+let Memory_Summary=[
+    {
+       // "children": [{
+            "Maximum_Capacity" : "2048 MB",
+            "Maximum Memory Module Size"     :   "4096 MB",
+            "Memory Slots"                   :   "4",
+            "Error Correction"               :   "None",
+            "DRAM Frequency"                 :   "199.0 MHz",
+            "Memory Timings"                 :   "3-3-3-8(CL-RCD-RP-RAS)",
+      //  }]
+    },
+        {
+            "Device_Locator"                 :   "Slot 1",
+            "children": [{
+                "Manufacture"                    :   "Hyundai Electronics",
+                "Part Number"                    :   "HYMD264 646D8J-D43",
+                "Serial Number"                  :   "FFFF7240",
+                "Capacity"                       :   "512 MB",
+                "Memory Type"                    :   "DDR (PC 3200)",
+                "Speed"                          :   "200 MHz",
+                "Supported Frequency"            :   "133 MHz, 166 MHz, 200 MHz",
+                "Memory Timings"                 :   "2-2-2-6-0 at 133 MHz, at 2",
+                "Memory Timings"                 :   "2-3-3-7-0 at 166 MHz, at 2",
+                "Memory Timings"                 :   "3-3-3-8-0 at 200 MHz, at 2",
+                "Data Width"                     :   "64 bits",
+                "Manufacturing Date"             :   "2005, Week 39",
+                "EPP SPD Support"                :   "No",
+                "XMP SPD Support"                :   "No"
+                "children"                       :   []
+                         }]
+        }
+    ];
+    
+    console.log(Memory_Summary.Maximum_Capacity);
